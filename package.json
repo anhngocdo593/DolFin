@@ -1,0 +1,21 @@
+{
+  "name": "dolfin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && node index.js",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build": "npx create-react-native-app client && cd client && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "expo-dev-client": "^4.0.14",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0"
+  }
+}
