@@ -1,11 +1,15 @@
 {
   "expo": {
-    "runtimeVersion": "1.0.0",
     "updates": {
-      "url": "https://u.expo.dev/97e17286-ac5f-4f83-a9fe-2dd5c12ef031",
-      "requestHeaders": {
-        "expo-channel-name": "your-channel-name"
-      }
+      "plugins": [
+        [
+          "expo-updates",
+          {
+            "username": "anh.dongoc5090"
+          }
+        ]
+      ],
+      "url": "https://u.expo.dev/97e17286-ac5f-4f83-a9fe-2dd5c12ef031"
     },
     "name": "dolfin",
     "slug": "dolfin",
@@ -22,7 +26,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anh.dongoc5090.dolfin",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
@@ -39,6 +45,9 @@
         "projectId": "97e17286-ac5f-4f83-a9fe-2dd5c12ef031"
       }
     },
-    "owner": "anh.dongoc5090"
+    "owner": "anh.dongoc5090",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
   }
 }

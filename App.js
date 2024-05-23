@@ -1,16 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image,ImageBackground } from 'react-native';
-import { GestureHandlerRootView} from 'react-native-gesture-handler'
-import Onboarding from 'react-native-onboarding-swiper';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Onboarding1 from './Onboarding1';
-import Onboarding2 from './Onboarding2';
-import Onboarding3 from "./Onboarding3"
-import Home from './Home';
+import Onboarding1 from './screens/Onboarding1';
+import Onboarding2 from './screens/Onboarding2';
+import Onboarding3 from "./screens/Onboarding3"
+import Home from './screens/Home';
 
 const Stack = createStackNavigator();
 export default function App() {
+  
   return (
     <NavigationContainer>
       <Stack.Navigator>
